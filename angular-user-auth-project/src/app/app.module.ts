@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent],
+  declarations: [AppComponent, LoginComponent,HomeComponent,UserListComponent],
   imports: [
     CommonModule,
     BrowserModule,
