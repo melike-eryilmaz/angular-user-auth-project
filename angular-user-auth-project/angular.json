@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "angular-user-auth-project"
+  "defaultProject": "angular-user-auth-project",
+  "cli": {
+    "analytics": false
+  }
 }
